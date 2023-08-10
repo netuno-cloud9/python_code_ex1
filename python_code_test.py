@@ -145,7 +145,7 @@ print("Somatório dos valores pares de 0 a 500:", soma)
 
 n = int(input("informe o total de pessoas cuja altura deseja comparar: "))
 
-maior_altura = float("inf")
+maior_altura = float("-inf")
 menor_altura = float("inf")
 
 for i in range(n):
@@ -161,7 +161,7 @@ print("Menor altura:", menor_altura)
 
 """14.Num frigorífico existem 90 bois. Cada boi traz preso em seu pescoço um cartão contendo seu número de identificação e seu peso. Fazer um algoritmo que escreva o número e peso do boi mais gordo e do boi mais magro."""
 
-boi_gordo = ("", float("inf"))
+boi_gordo = ("", float("-inf"))
 boi_magro = ("", float("inf"))
 
 for i in range(90):
