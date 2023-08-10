@@ -178,6 +178,11 @@ print("Boi + magro:", boi_magro)
 
 """18.Desenvolva um programa que armazene quatro notas em uma lista e que apresenta: a média final, a maior nota e a menor nota."""
 
+
+"""19.Desenvolva um programa que armazene quatro notas em uma lista e que apresenta a média final. Caso a média seja igual ou superior a 7, 
+apresentar a mensagem "APROVADO", caso contrário, armazenar a nota da prova final e recalcular a média. 
+Caso a nova média seja igual superior a 5, apresentar a mensagem "APROVADO", caso contrário, apresentar a mensagem "REPROVADO""""
+
 print("Digite a primeira nota") #pedindo uma informação ao usuário
 nota1 = float(input()) #Convertendo o que foi digitado pelo usuário para real e em seguida salvando na variavel
 print("Digite a segunda nota") #pedindo uma informação ao usuário
