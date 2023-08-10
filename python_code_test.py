@@ -176,6 +176,25 @@ for i in range(90):
 print("Boi + gordo:", boi_gordo)
 print("Boi + magro:", boi_magro)
 
+"""18.Desenvolva um programa que armazene quatro notas em uma lista e que apresenta: a média final, a maior nota e a menor nota."""
+
+print("Digite a primeira nota") #pedindo uma informação ao usuário
+nota1 = float(input()) #Convertendo o que foi digitado pelo usuário para real e em seguida salvando na variavel
+print("Digite a segunda nota") #pedindo uma informação ao usuário
+nota2 = float(input()) #Convertendo o que foi digitado pelo usuário para real e em seguida salvando na variavel
+print("Digite a terceira nota") #pedindo uma informação ao usuário
+nota3 = float(input())
+print("Digite a quarta nota") #pedindo uma informação ao usuário
+nota4 = float(input())
+media = (nota1 + nota2 + nota3 + nota4)/4 #calculando a média das notas e salvando na variavel media
+print("A média foi: %.2f" % media) #mostrando a media com apenas 2 casas decimais
+if media >= 7: #verificando se a média é maior ou igual a 7
+  print("O aluno foi aprovado") #caso seja, o aluno é aprovado
+elif media >= 5: #se a média for menor do que 7, verificamos se ela é maior ou igual a 5
+  print("O aluno está na recuperação") #caso seja, o aluno está na recuperação
+else: #caso contrário, ou seja, média menor do que 5
+  print("O aluno foi reprovado") #o aluno é reprovado
+
 """28.Duas palavras são um “par inverso” se uma for o contrário da outra. Escreva um programa que encontre todos os pares inversos na lista de palavras."""
 
 def verdadeiro_par_inverso(word1, word2):
